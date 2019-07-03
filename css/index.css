@@ -1,0 +1,30 @@
+body,input{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none !important;
+}
+header{
+	background:black;
+}
+header>div div{
+	vertical-align: middle;
+	color:#999999;
+	font-size:14px;
+	margin:5px 0;
+}
+header>div div a{
+	color:#999999;
+}
+header input:nth-of-type(1){
+	border-radius: 20px 0 0 20px;
+	padding-left:10px;
+	outline:none;
+	float:left;
+}
+header span{
+	border-radius: 0 20px 20px 0;
+	display: inline-block;
+	background:#FF5000 url(../images/search.png) no-repeat center  center;
+}
